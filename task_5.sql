@@ -9,5 +9,5 @@ INSERT INTO customer (
     1
     'Cole Baidoo'
     'cbaidoo@sandtech.com'
-    '123 Happiness Ave'
+    '123 Happiness Ave.'
 );
