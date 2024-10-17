@@ -2,7 +2,7 @@ CREATE DATABASE IF NOT EXISTS alx_book_store;
 
 USE alx_book_store;
 
-CREATE TABLE books (
+CREATE TABLE Books (
     book_id INT PRIMARY KEY NOT NULL,
     title VARCHAR(130) NOT NULL,
     author_id INT,
@@ -23,7 +23,7 @@ CREATE TABLE Customers (
     address TEXT
 );
 
-CREATE TABLE orders(
+CREATE TABLE Orders(
     order_id INT AUTO INCREMENT PRIMARY KEY,
     customer_id INT,
     order_date DATE,
